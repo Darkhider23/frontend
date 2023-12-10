@@ -1,0 +1,43 @@
+.image-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input[type="file"]::file-selector-button {
+  margin-top:20px;
+  border-radius: 4px;
+  padding: 0 16px;
+  height: 40px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  margin-right: 16px;
+  transition: background-color 200ms;
+}
+
+/* file upload button hover state */
+input[type="file"]::file-selector-button:hover {
+  background-color: #f3f4f6;
+}
+
+/* file upload button active state */
+input[type="file"]::file-selector-button:active {
+  background-color: #e5e7eb;
+}
+.upload-btn{
+  background-color: aqua;
+  margin-top:10px;
+  font-size: 15px;
+  padding: 5px;
+  border:none;
+  border-radius:10px;
+  color:white
+}
+
+.upload-btn:hover{
+  transform: scale(1.1);
+  cursor:pointer;
+  color:black;
+  transition:all 0.4s ease-in-out;
+}

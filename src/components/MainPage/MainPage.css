@@ -1,0 +1,72 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+  min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+}
+.work-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Adjust the value based on your needs */
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45rem;
+  width: 40rem;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(115deg, #56d8e4 10%, #6c059c 90%);
+  border-radius: 30px;
+}
+.model-btn {
+  position: absolute;
+  right: 3%;
+  top:0;
+  background-color: transparent;
+  border: none;
+  color:white;
+}
+.model-btn:hover{
+  transform: rotate(180deg);
+  transition: all 0.4s ease-in-out;
+  transform-origin: center;
+}
+.page-container h1{
+  color:white;
+}
+.header{
+  margin-top:3%;
+  width: 100%;
+  position: relative;
+}
+.header h1{
+  display: flex;
+  justify-content: center;
+}

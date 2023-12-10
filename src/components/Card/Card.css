@@ -1,0 +1,165 @@
+.card {
+  height: 250px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+  min-width: 250px;
+  position: relative;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.image-container button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: transparent;
+  mix-blend-mode: normal;
+  border: none;
+}
+.image-container button:hover {
+  transform: scale(1.1);
+  transition: all 0.4s ease-in-out;
+}
+.close-btn {
+  position: fixed;
+  background: transparent;
+  border: none;
+  top: 50px;
+  right: 60px;
+}
+.image-container img {
+  width: 65%;
+  height: 65%;
+}
+.prev-btn {
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  font-size: 40px;
+  border: none;
+  background: transparent;
+  color: purple;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  transform: scale(1.2);
+  transition: all 0.4s ease-in-out;
+}
+.next-btn {
+  position: absolute;
+  top: 40%;
+  right: 20%;
+  border: none;
+  background: transparent;
+  color: purple;
+  font-size: 40px;
+}
+.title {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(0, 140, 255);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.middle {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.middle p {
+  width: 80%;
+}
+.middle a {
+  position: absolute;
+  right: 10px;
+  top: 60px;
+}
+.gallery-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 30%;
+  border: none;
+  background: transparent;
+  color: rgb(12, 70, 179);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.edit-btn {
+  background: transparent;
+  position: absolute;
+  bottom: 7px;
+  right: 10px;
+  border: none;
+  cursor: pointer;
+}
+.edit-text {
+  padding: 20px;
+  font-size: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.edit-form {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.edit-form label {
+  margin-bottom: 20px;
+  font-size: 30px;
+  padding: 20px;
+}
+.edit-form input {
+  font-size: 15px;
+  width: 30%;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+}
+.edit-form button {
+  background-color: aqua;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+.edit-form button:hover {
+  transform: scale(1.1);
+  transition: all 0.4s ease-in-out;
+}
+.hide-btn {
+  position: absolute;
+  left: 10px;
+  bottom: 4px;
+  background-color: transparent;
+  border: none;
+}
+.hidden .middle,
+.hidden .gallery-btn,
+.hidden .edit-btn {
+  display: none;
+}
+.hidden {
+  height: 10%;
+}
+.delete-btn{
+  background-color: transparent;
+  border:none;
+  position:absolute;
+  right: 10px;
+  top:13px;
+}

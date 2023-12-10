@@ -1,0 +1,13 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  min-width: 800px;
+}
+
+.work-list-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
